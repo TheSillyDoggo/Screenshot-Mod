@@ -1,0 +1,28 @@
+{
+	"geode": "2.0.0-beta.21",
+	"gd": {
+		"win": "2.204",
+        "mac": "2.200",
+		"android": "*"
+	},
+	"version": "v1.0.0",
+	"id": "thesillydoggo.screenshot_mod",
+	"name": "Screenshot Mod",
+	"developer": "TheSillyDoggo",
+	"description": "level thumbnails moment",
+	"dependencies": [
+        {
+            "id": "geode.node-ids",
+            "version": "v1.7.1",
+            "importance": "required"
+        }
+    ],
+	"settings": {
+		"hide-icons": {
+            "name": "Hide Icons",
+            "description": "hide icons help",
+            "type": "bool",
+            "default": true
+        }
+	}
+}
